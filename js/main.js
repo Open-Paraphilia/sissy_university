@@ -258,14 +258,14 @@ function graduateMajor() {
     let currentPunishments = getCurrentPunishments();
     let punishmentsPendingNum = currentPunishments.length;
     if (punishmentsPendingNum > 0) {
-        alert("You cannot graduate with pending punishments")
+        alert("You cannot graduate with pending punishments");
         return;
     }
 
     //check for active classes
     let currentClasses = getCurrentClasses();
     if (currentClasses.length > 0) {
-        alert("You cannot graduate with currently active classes.")
+        alert("You cannot graduate with currently active classes.");
         return;
     }
 
@@ -1038,7 +1038,7 @@ function viewPunishment() {
             .append($('<div class="col text-center">')
                 .append($('<h2>').text(thisPunishment.name))
                 .append($('<h5>').text(thisPunishment.description))
-            ))
+            ));
 
     //Append to page
     container.append(objectInfo);
@@ -1380,7 +1380,7 @@ function viewProgressPage() {
     if (loadCurrentMajor() == false) {
         return;
     }
-    ;
+
     loadCurrentClasses();
     loadMandatoryClasses();
     loadCompletedClasses();
