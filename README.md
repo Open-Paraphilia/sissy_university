@@ -12,9 +12,9 @@ There are extra options featuring a variety of fetishes such as latex clothing, 
 inflation, spanking, breathplay, humiliation, petplay, estim, fucking machines, sensory deprivation,
 mummification and others.
   
-## How To Play
-1.Click "Clone or Download"
-2.Click Download Zip
-3.Extract the downloaded archive
-4.Start index.html (this is a browser based game)
-5.Enjoy!
+## How To Play  
+1.Click "Clone or Download"  
+2.Click Download Zip  
+3.Extract the downloaded archive  
+4.Start index.html (this is a browser based game)  
+5.Enjoy!  
