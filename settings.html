@@ -19,7 +19,7 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-
+<html>
 
 <body>
 
@@ -27,10 +27,18 @@
 
 <main>
     <div class="container text-center">
-        <h1>Settings</h1>
+        <h1>Settings (use only in case something breaks)</h1>
         <div class="row border">
             <div class="col">
-                Reset game
+                Reset Current major progress (saves completed majors)
+            </div>
+            <div class="col">
+                <button class="btn-danger" onclick="resetMajor()">Yes</button>
+            </div>
+        </div>
+        <div class="row border">
+            <div class="col">
+                Reset Game Completely
             </div>
             <div class="col">
                 <button class="btn-danger" onclick="resetGame()">Yes</button>

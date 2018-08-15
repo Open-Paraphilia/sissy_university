@@ -51,6 +51,9 @@ function startApp() {
     if (localStorage.getItem("completedMajors") == null) {
         localStorage.setItem("completedMajors", JSON.stringify([]));
     }
+    if (localStorage.getItem("completedMajors") == null) {
+        localStorage.setItem("completedMajors", JSON.stringify([]));
+    }
 
     //Set max counters
     if (localStorage.getItem("maxClasses") == null) {
@@ -93,23 +96,26 @@ function startApp() {
         localStorage.setItem("finalThesisOption", "0")
     }
 
+
+    //LOAD THE NAVBAR
+    $("#loadNavbar").load("navbar.html");
+
+    //LOAD footer
+    $("footer").append($('<div class="footer" style="height: 200px"></div>'));
+
     //Redirect if final thesis is in progress
     if (localStorage.getItem("finalThesisInProgress") == "true") {
-        let currentHtmlFile = location.pathname.substring(location.pathname.lastIndexOf("/") + 1)
-        if (currentHtmlFile != "thesis_final.html") {
+        let currentHtmlFile = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+        if (currentHtmlFile == "settings.html" || currentHtmlFile == "rules.html") {
+            return false;
+        }
+
+        else if (currentHtmlFile != "thesis_final.html") {
             let finalThesisOption = localStorage.getItem("finalThesisOption");
             window.location = "thesis_final.html?thesisId=" + finalThesisOption;
         }
 
     }
-
-    //LOAD THE NAVBAR
-
-    $("#loadNavbar").load("navbar.html");
-
-
-    //LOAD footer
-    $("footer").append($('<div class="footer" style="height: 200px"></div>'));
 
     //Run timer
     hasOneDayPassed();
@@ -123,21 +129,25 @@ MAJORS
 
 function viewMajorsPage() {
     let majorsData = getMajorsData();
+    let completedMajors = getCompletedMajors();
 
     let majorsContainer = $('.card-container');
     let row = $('<div class="row">');
 
 
-    for (let major of majorsData) {
+    for (let thisMajor of majorsData) {
         let col = $('<div class="col-auto">');
         let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-        let imgUrl = "img/" + "major" + major.id + ".jpg";
+        let imgUrl = "img/" + "major" + thisMajor.id + ".jpg";
         card
             .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
-            window.location.href = "major.html?majorId=" + major.id;
+            window.location.href = "major.html?majorId=" + thisMajor.id;
         })
-            .append($('<h5 class="card-title">').text(major.name));
+            .append($('<h5 class="card-title">').text(thisMajor.name));
+        if (arrayIncludesObjectWithId(completedMajors, thisMajor) === true) {
+            card.append($('<a href="" class="btn btn-success disabled">Completed</a>'))
+        }
 
         $(row).append(col.append(card));
     }
@@ -328,11 +338,13 @@ function chooseFinalThesis() {
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
-    //todo final thesis img
-    col.append($('<img src="img/725x250.svg" class="img-fluid" alt="Responsive image">'));
+    let imgUrl = "img/" + "major" + thisMajor.id + ".jpg";
+
+    col.append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name));
     col.append($('<p>').text(thisMajor.description));
     objectInfo.append(mainInfoRow.append(col));
+
 
     //Append Thesis to object
     objectInfo
@@ -395,8 +407,8 @@ function finalThesisProgress() {
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
-    //todo final thesis img
-    col.append($('<img src="img/725x250.svg" class="img-fluid" alt="Responsive image">'));
+    let imgUrl = "img/major" + thisMajor.id + ".jpg";
+    col.append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name));
     col.append($('<p>').text(thisMajor.description));
     objectInfo.append(mainInfoRow.append(col));
@@ -457,25 +469,19 @@ function finalThesisProgress() {
     container.append($('<h1>').text("Punishments:"));
     let currentPunishments = getCurrentPunishments();
 
-    let punishmentsRow = $('<div class="row">');
-
-    for (let punishment of currentPunishments) {
-        let col = $('<div class="col-auto">');
-
-        let card = $('<div class="card border-danger" style="width:18rem; height: 600px">');
-        card
-        //todo punishments img
-            .append($('<img class="card-img-top">').attr("src", "img/286x180.svg"))
-            .append(
-                $('<div class="card-body">')
-                    .append($('<h5 class="card-title">').text(punishment.name))
-                    .append($('<p>').text(punishment.description))
-                    .append($('<a href="#/" class="btn btn-danger">Complete punishment</a>').click(completePunishment.bind(this, punishment))));
-        col.append(card);
-        punishmentsRow.append(col)
+    for (let thisPunishment of currentPunishments) {
+        let punishmentImg = "img/punishment" + thisPunishment.id + ".jpg";
+        container.append($('<div class="row" style="margin-bottom: 24px">')
+            .append($('<div class="col">')
+                .append($('<img class="img-fluid" style="max-height: 300px">').attr('src', punishmentImg)))
+            .append($('<div class="col">')
+                .append($('<h3>').text(thisPunishment.name))
+                .append($('<p>').text(thisPunishment.description))
+                .append($('<a href="" class="btn btn-success">Complete!</a>').click(completePunishment.bind(this, thisPunishment))
+                )
+            )
+        )
     }
-    container.append(punishmentsRow);
-
 }
 
 function failFinalThesis() {
@@ -496,7 +502,7 @@ function failFinalThesis() {
 
 function completeFinalThesis() {
     if (getCurrentPunishments().length > 0) {
-        alert("Complete your punishments first!")
+        alert("Complete your punishments first!");
         return;
     }
 
@@ -504,12 +510,9 @@ function completeFinalThesis() {
     localStorage.setItem("finalThesisInProgress", "false");
     localStorage.setItem("finalThesisOption", "0");
 
-    if (localStorage.getItem("completedMajors" === null)) {
+    if (localStorage.getItem("completedMajors") == null) {
         localStorage.setItem("completedMajors", JSON.stringify([]));
     }
-    let completedMajors = localStorage.getItem("completedMajors");
-    completedMajors.push(getCurrentMajor());
-    localStorage.setItem("completedMajors", JSON.stringify(completedMajors));
 
     alert("Final thesis completed!");
     window.location = "congratulations.html";
@@ -520,11 +523,14 @@ function getCurrentMajor() {
     return JSON.parse(localStorage.getItem("currentMajor"));
 }
 
+function getCompletedMajors() {
+    return JSON.parse(localStorage.getItem("completedMajors"));
+
+}
+
 function congratulations() {
     let currentMajor = getCurrentMajor();
-    let completedMajors = JSON.parse(localStorage.getItem("completedMajors"));
-
-    completedMajors.push(currentMajor);
+    let completedMajors = getCompletedMajors();
 
     alert("CONGRATULATIONS!");
 
@@ -538,11 +544,10 @@ function congratulations() {
 
     container.append($('<h4>').text(text));
 
-    container.append('<a href="" class="btn btn-success">Continue</a>').click(function () {
+    container.append('<a href="majors.html" class="btn btn-success">Continue</a>').click(function () {
+        completedMajors.push(currentMajor);
         localStorage.clear();
         localStorage.setItem("completedMajors", JSON.stringify(completedMajors));
-        window.location = "index.html";
-        return false;
     });
 }
 
@@ -1372,7 +1377,10 @@ PROGRESS PAGE
 **********************
 */
 function viewProgressPage() {
-    loadCurrentMajor();
+    if (loadCurrentMajor() == false) {
+        return;
+    }
+    ;
     loadCurrentClasses();
     loadMandatoryClasses();
     loadCompletedClasses();
@@ -1388,18 +1396,23 @@ function viewProgressPage() {
         }
         if (currentMajor == null) {
             $('#progress-page-content').hide();
+            return false;
         }
 
-        let majorObject = $('<div class="major-info">');
+        //Append Major info to page
+        let imgUrl = "img/major" + currentMajor.id + ".jpg";
+        let majorObject =
+            $('<div class="major-info">')
+                .append($('<div class="row">')
+                    .append($('<div class="col">')
+                        .append($('<img class="img-fluid" style="max-height: 300px">').attr('src', imgUrl)))
+                    .append($('<div class="col">')
+                        .append($('<h4>').text(currentMajor.name))
+                        .append($('<p>').text(currentMajor.description)
+                        )
+                    )
+                );
 
-        let mainInfoRow = $('<div class="row">');
-        let col = $('<div class="col">');
-
-        //Append image, title and description to object info
-        col.append($('<img src="img/725x250.svg" class="img-fluid" alt="Responsive image">'));
-        col.append($('<h1>').text(currentMajor.name));
-        col.append($('<p>').text(currentMajor.description));
-        majorObject.append(mainInfoRow.append(col));
 
         $('#progressLoadMajor').append(majorObject)
     }
@@ -1760,9 +1773,16 @@ function viewSchedulePage() {
 SETTINGS PAGE
 **********************
 */
-function resetGame() {
-    alert("Game progress has been reset");
+function resetMajor() {
+    let completedMajors = getCompletedMajors();
     localStorage.clear();
+    localStorage.setItem("completedMajors", JSON.stringify(completedMajors));
+    alert("Major progress has been reset");
+}
+
+function resetGame() {
+    localStorage.clear();
+    alert("Game progress has been reset");
 }
 
 /*
@@ -1868,7 +1888,7 @@ function countDownTillEndOfDay() {
 
             return;
         }
-        let days = Math.floor(distance / _day);
+        //let days = Math.floor(distance / _day);
         let hours = Math.floor((distance % _day) / _hour);
         let minutes = Math.floor((distance % _hour) / _minute);
         let seconds = Math.floor((distance % _minute) / _second);
