@@ -13,6 +13,10 @@ inflation, spanking, breathplay, humiliation, petplay, estim, fucking machines, 
 mummification and others.
   
 ## How To Play  
+Go to: https://mayatrap.github.io/sissy_university/
+  
+   
+## Offline Play  
 1.Click "Clone or Download"  
 2.Click Download Zip  
 3.Extract the downloaded archive  
