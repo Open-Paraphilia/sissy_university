@@ -535,7 +535,7 @@ function congratulations() {
     alert("CONGRATULATIONS!");
 
     let container = $('.container');
-    let text = "Congratulations, you have managed to graduate from the Kinkster University. " +
+    let text = "Congratulations, you have managed to graduate from the Sissy University. " +
         currentMajor.name +
         " has been added to your list of completed majors. You can sign up for another major or replay the same one again." +
         " You have completed " + getCompletedClasses().length + " classes and endured " + getPunishmentsDoneNum() + " punishments in total." +
@@ -2457,7 +2457,7 @@ function initializeClubsData() {
     };
     let club6 = {
         id: '6',
-        name: 'Lewd Literature club',
+        name: 'Literature club',
         days: '0',
         description: 'Read lewd manga.',
         perk1: 'Skip a class.',
