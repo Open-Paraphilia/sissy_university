@@ -198,17 +198,15 @@ function viewMajor() {
 
 
     //Get container for the object
-    let container = $('.container');
+    let objectInfo = $('.container');
 
     //Create object
-    let objectInfo = $('<div class="object-info">');
-
     let mainInfoRow = $('<div class="row">');
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
     let imgUrl = "img/major" + thisMajor.id + ".jpg";
-    col.append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl));
+    col.append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name)
         .append(prereqsHtml));
 
@@ -243,7 +241,7 @@ function viewMajor() {
                 ));
 
     //Appent object info to container
-    container.append(objectInfo);
+    //container.append(objectInfo);
 }
 
 function graduateMajor() {
@@ -329,18 +327,16 @@ function chooseFinalThesis() {
 
     let thisMajor = getCurrentMajor();
 
-    let container = $('.container');
+    let objectInfo = $('.container');
 
     //Create object
-    let objectInfo = $('<div class="object-info">');
-
     let mainInfoRow = $('<div class="row">');
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
     let imgUrl = "img/" + "major" + thisMajor.id + ".jpg";
 
-    col.append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl));
+    col.append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name));
     col.append($('<p>').text(thisMajor.description));
     objectInfo.append(mainInfoRow.append(col));
@@ -376,10 +372,6 @@ function chooseFinalThesis() {
                         return false;
                     }))
                 ));
-
-    //Append object info to container
-    container.append(objectInfo);
-
 }
 
 function finalThesisProgress() {
@@ -398,17 +390,14 @@ function finalThesisProgress() {
 
     let thisMajor = getCurrentMajor();
 
-    let container = $('.container');
-
-    //Create object
-    let objectInfo = $('<div class="object-info">');
+    let objectInfo = $('.container');
 
     let mainInfoRow = $('<div class="row">');
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
     let imgUrl = "img/major" + thisMajor.id + ".jpg";
-    col.append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl));
+    col.append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name));
     col.append($('<p>').text(thisMajor.description));
     objectInfo.append(mainInfoRow.append(col));
@@ -463,15 +452,14 @@ function finalThesisProgress() {
         );
 
     //Appent object info to container
-    container.append(objectInfo);
 
     //Get punishments
-    container.append($('<h1>').text("Punishments:"));
+    objectInfo.append($('<h1>').text("Punishments:"));
     let currentPunishments = getCurrentPunishments();
 
     for (let thisPunishment of currentPunishments) {
         let punishmentImg = "img/punishment" + thisPunishment.id + ".jpg";
-        container.append($('<div class="row" style="margin-bottom: 24px">')
+        objectInfo.append($('<div class="row" style="margin-bottom: 24px">')
             .append($('<div class="col">')
                 .append($('<img class="img-fluid" style="max-height: 300px">').attr('src', punishmentImg)))
             .append($('<div class="col">')
@@ -669,11 +657,9 @@ function viewClass() {
     daysString = daysString.join(', ');
 
     //Get container for the object
-    let container = $('.container');
+    let objectInfo = $('.container');
 
     //Create object
-    let objectInfo = $('<div class="object-info">');
-
 
     //Get prerequisites data
     let prereqsIds = thisClass.prerequisites.split(' ').filter((val) => val);
@@ -704,7 +690,7 @@ function viewClass() {
     objectInfo
         .append($('<div class="row">')
             .append($('<div class="col">')
-                .append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl))
+                .append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl))
             ))
         .append($('<div class="row">')
             .append($('<div class="col">')
@@ -738,7 +724,6 @@ function viewClass() {
 
     //Append to page
     objectInfo.append(buttonsRow);
-    container.append(objectInfo);
 }
 
 function signClass(thisClass) {
@@ -1024,24 +1009,20 @@ function viewPunishment() {
     let punishmentId = window.location.href.split("=")[1];
     let thisPunishment = punishmentsData.find(c => c.id == punishmentId);
 
-    let container = $('.container');
-    let objectInfo = $('<div class="object-info">');
+    let objectInfo = $('.container');
 
     let imgUrl = "img/punishment" + thisPunishment.id + ".jpg";
 
     objectInfo
         .append($('<div class="row">')
             .append($('<div class="col">')
-                .append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl))
+                .append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl))
             ))
         .append($('<div class="row">')
             .append($('<div class="col text-center">')
                 .append($('<h2>').text(thisPunishment.name))
                 .append($('<h5>').text(thisPunishment.description))
             ));
-
-    //Append to page
-    container.append(objectInfo);
 }
 
 /*
@@ -1076,15 +1057,14 @@ function viewClub() {
     let clubId = window.location.href.split("=")[1];
     let thisClub = clubsData.find(c => c.id == clubId);
 
-    let container = $('.container');
-    let objectInfo = $('<div class="object-info">');
+    let objectInfo = $('.container');
 
     let imgUrl = "img/club" + thisClub.id + ".jpg";
 
     objectInfo
         .append($('<div class="row">')
             .append($('<div class="col">')
-                .append($('<img class="img-fluid" style="max-width: 600px">').attr('src', imgUrl))
+                .append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl))
             ))
         .append($('<div class="row">')
             .append($('<div class="col text-center">')
@@ -1109,9 +1089,6 @@ function viewClub() {
             .append($('<div class="col">')
                 .append($('<a href="" class="btn btn-danger">Leave</a>').click(leaveClub.bind(this, thisClub)))
             ));
-
-    //Append to page
-    container.append(objectInfo);
 }
 
 function signClub(thisClub) {
