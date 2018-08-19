@@ -16,9 +16,13 @@ mummification and others.
 Go to: https://mayatrap.github.io/sissy_university/
   
    
-## Offline Play  
+## Offline Play for PC/Mac
 1.Click "Clone or Download"  
 2.Click Download Zip  
 3.Extract the downloaded archive  
 4.Start index.html (this is a browser based game)  
 5.Enjoy!  
+  
+## Offline Play for Android  
+Download APK here:  
+https://mega.nz/#!2X4hDIAT!nOHa1pCmerQtYpSI43a1hdJIRGQqzg72WOC-00T8NuM
