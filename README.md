@@ -23,6 +23,7 @@ Go to: https://mayatrap.github.io/sissy_university/
 4.Start index.html (this is a browser based game)  
 5.Enjoy!  
   
-## Offline Play for Android  
-Download APK here:  
+## Offline Play for Android
+Outdated and not supported. Just play it in your browser it needs 15mb of data on first load. After that almost no data is used since no info is stored on servers.
+Download APK here:
 https://mega.nz/#!2X4hDIAT!nOHa1pCmerQtYpSI43a1hdJIRGQqzg72WOC-00T8NuM

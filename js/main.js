@@ -1790,6 +1790,19 @@ function resetGame() {
     localStorage.clear();
     alert("Game progress has been reset");
 }
+function updateGame() {
+    localStorage.removeItem("classesData");
+    localStorage.removeItem("clubsData");
+    localStorage.removeItem("punishmentsData");
+
+    localStorage.removeItem("currentClasses");
+    localStorage.removeItem("currentPunishments");
+    localStorage.removeItem("currentClubs");
+
+    localStorage.removeItem("todayClasses");
+
+    alert("Updated");
+}
 
 /*
 **********************
