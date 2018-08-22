@@ -1790,18 +1790,31 @@ function resetGame() {
     localStorage.clear();
     alert("Game progress has been reset");
 }
+
 function updateGame() {
-    localStorage.removeItem("classesData");
-    localStorage.removeItem("clubsData");
-    localStorage.removeItem("punishmentsData");
+    let currentVersion = "1.04"; //22Aug 2018
+    if (localStorage.getItem("version") == null) {
+        localStorage.setItem("version", "1.00")
+    }
+    if (localStorage.getItem("version") !== currentVersion) {
 
-    localStorage.removeItem("currentClasses");
-    localStorage.removeItem("currentPunishments");
-    localStorage.removeItem("currentClubs");
+        localStorage.removeItem("classesData");
+        localStorage.removeItem("clubsData");
+        localStorage.removeItem("punishmentsData");
 
-    localStorage.removeItem("todayClasses");
+        localStorage.removeItem("currentClasses");
+        localStorage.removeItem("currentPunishments");
+        localStorage.removeItem("currentClubs");
 
-    alert("Updated");
+        localStorage.removeItem("todayClasses");
+
+        localStorage.setItem("version", currentVersion);
+        alert("Updated");
+    }
+    else {
+        alert("You are already running the latest version.")
+    }
+
 }
 
 /*
