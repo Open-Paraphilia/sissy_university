@@ -15,15 +15,17 @@ mummification and others.
 ## How To Play  
 Go to: https://mayatrap.github.io/sissy_university/
   
-   
+
 ## Offline Play for PC/Mac
 1.Click "Clone or Download"  
 2.Click Download Zip  
 3.Extract the downloaded archive  
 4.Start index.html (this is a browser based game)  
 5.Enjoy!  
-  
-## Offline Play for Android
-Outdated and not supported. Just play it in your browser it needs 15mb of data on first load. After that almost no data is used since no info is stored on servers.
-Download APK here:
-https://mega.nz/#!2X4hDIAT!nOHa1pCmerQtYpSI43a1hdJIRGQqzg72WOC-00T8NuM
+*using Firefox is recommended
+
+
+## Offline Play for Android (works on Android 7 Nougat and newer only)
+The APK version is often outdated and with limited support.
+Latest APK version - 25Aug2018; Latest Game Version - 25Aug2018:
+https://mega.nz/#!OHxxXLYJ!TNOGqFFKxXKDH6-VegJnzrM9lrgznKcuaBHUjSGux0w
