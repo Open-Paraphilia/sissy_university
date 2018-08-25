@@ -95,7 +95,7 @@ function startApp() {
 
 
     //LOAD THE NAVBAR
-    $("#loadNavbar").load("navbar.html");
+    //$("#loadNavbar").load("navbar.html"); //TODO generate navbar with JQ
 
     //LOAD footer
     $("footer").append($('<div class="footer" style="height: 200px"></div>'));
