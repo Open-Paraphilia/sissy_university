@@ -1997,8 +1997,8 @@ function initializeMajorsData() {
         tier: 'major',
         opt1: 'none',
         opt2: 'none',
-        pass1: 'Cum from anal 5 time this week. Use a dildo (size XL). Cum only 3 times if you sleep with a buttplug (size L) and wear chastity.',
-        pass2: 'Cum from anal 2 times in a day. Use a dildo (size XL). Dont clean up between sessions.',
+        pass1: 'Cum from anal 5 times this week. Use a dildo (size XL). Cum only 3 times if you sleep with a buttplug (size L) and wear chastity.',
+        pass2: 'Cum from anal 2 times in a day. Use a dildo (size XL). Don\'t clean up between sessions.',
         pass3: 'Have a real guy/girl fuck your ass.'
     };
 
@@ -2026,7 +2026,7 @@ function initializeMajorsData() {
         opt1: 'none',
         opt2: 'none',
         pass1: 'Edge yourself once a day while sitting on a dildo (size L) or wearing a plug (size L). You must be kept in chastity for the rest of the time. Sleep with a buttplug (size M) during the night. Do this every day for a week. If you cum, even from anal, roll one punishment and add 1 day to your time.',
-        pass2: 'Spread your sex toys or other objects(15 minimum) around your apartment but so that they can easily be reached by a toddler. Apply clothespins to your balls and nipples. Tie your hands and legs in a "bitchsuit/petplay" style so you walk on your elbows and knees. You can use knee and elbow pads to make it more comfortable. Start collecting your toys one by one by bringing them to a common place with your mouth. You are done when all the toys have been gathered at one place. Spread just 10 toys if you\'re locked in chastity and plugged.',
+        pass2: 'Spread your sex toys or other objects(15 minimum) around your apartment so that they could easily be reached by a toddler. Apply clothespins to your balls and nipples. Tie your hands and legs in a "bitchsuit/petplay" style so you walk on your elbows and knees. You can use knee and elbow pads to make it more comfortable. Start collecting your toys one by one by bringing them to a common place with your mouth. You are done when all the toys have been gathered at one place. Spread just 10 toys if you\'re locked in chastity and plugged.',
         pass3: 'Edge yourself twice a day for two weeks (even weekends). Put clothespins on your nipples and balls while doing so. If you cum, even from anal, roll a punishment and add 1 day to your time. 1 week if you\'re locked in chastity for the rest of the time'
     };
 
@@ -2039,7 +2039,7 @@ function initializeMajorsData() {
         tier: 'major',
         opt1: 'none',
         opt2: 'none',
-        pass1: 'Stuff two toys (any sizes) in your ass. Hold in place and sit down on them. Deepthroat your largest dildo (size XL) for 10 seconds 5 times. 5 seconds if in chastity and "dressed like a girl".',
+        pass1: 'Stuff two toys (any size) in your ass. Hold in place and sit down on them. Deepthroat your largest dildo (size XL) for 10 seconds 5 times. 5 seconds if in chastity and "dressed like a girl".',
         pass2: 'Stuff your biggest plug in your (size XL). Deepthroat your largest dildo (size XL) 30 times. 20 times if "dressed like a girl"',
         pass3: 'Insert you biggest buttplug (size XL) or two toys (any sizes) in your ass. Hold them in. Deepthroat your biggest dildo (size XL) for 20 seconds. 10 seconds if in chastity and "dressed like a girl".'
     };
@@ -2128,10 +2128,10 @@ function initializeClassesData() {
         days: '1 2 3',
         description: 'You will learn how to pleasure a dick with your mouth.',
         tier: 'core',
-        opt1: 'Give a 5 minute blowjob to dildo (size S). Deepthroat once in the end.',
-        opt2: 'Lick the shaft of a dildo 100times (size S). Deepthroat once in the end.',
+        opt1: 'Give a 5 minute blowjob to a dildo (size S). Deepthroat once at the end.',
+        opt2: 'Lick the shaft of a dildo 100 times (size S). Deepthroat once at the end.',
         pass1: 'Deepthroat a dildo 10 times in 1 minute (size S).',
-        pass2: 'Deepthroat a a dildo 30 times in one sitting (size S).'
+        pass2: 'Deepthroat a dildo 30 times in one sitting (size S).'
     };
 
     let class06 = {
@@ -2141,10 +2141,10 @@ function initializeClassesData() {
         days: '2 4',
         description: 'You will learn how to feel pleasure from your prostate.',
         tier: 'base',
-        opt1: 'Aim for your prostate. Fuck yourself at 30bmp for 20minutes with a dildo (size M)',
-        opt2: 'Aim for your prostate. Fuck yourself at 60bmp for 10minutes with a dildo (size M)',
-        pass1: 'Aim for your prostate. Fuck yourself at 90bmp for 10minutes with a dildo (size M)',
-        pass2: 'Aim for your prostate. Fuck yourself at 120bmp for 5minutes with a dildo (size M)'
+        opt1: 'Aim for your prostate. Fuck yourself at 30BPM for 20minutes with a dildo (size M)',
+        opt2: 'Aim for your prostate. Fuck yourself at 60BPM for 10minutes with a dildo (size M)',
+        pass1: 'Aim for your prostate. Fuck yourself at 90BPM for 10minutes with a dildo (size M)',
+        pass2: 'Aim for your prostate. Fuck yourself at 120BPM for 5minutes with a dildo (size M)'
     };
 
     let class07 = {
@@ -2155,9 +2155,9 @@ function initializeClassesData() {
         description: 'Your first serious class, time to put your skills to the test like a proper sex slave',
         tier: 'base',
         opt1: 'Spit roast yourself for 10 minutes with two dildos (sizes S and M)',
-        opt2: 'Attach clothespins to your balls and nipples. Watch porn for 10 minutes. If you arent locked you can have a ruined orgasm.',
-        pass1: 'Spitroat yourself for 15minutes while in chastity. Use two two dildos (sizes M and M or M and L)',
-        pass2: 'Attach clothespins to your balls and nipples. Spit roast yourself for 15minutes while in chastity. You can have an anal orgasm.'
+        opt2: 'Attach clothespins to your balls and nipples. Watch porn for 10 minutes. If you aren\'t locked, you can have a ruined orgasm.',
+        pass1: 'Spitroast yourself for 15minutes while in chastity. Use two dildos (sizes M and M or M and L)',
+        pass2: 'Attach clothespins to your balls and nipples. Spitroast yourself for 15 minutes while in chastity. You can have an anal orgasm.'
     };
 
     let class08 = {
@@ -2196,7 +2196,7 @@ function initializeClassesData() {
         opt1: 'Cuff your legs together while performing 1 other task from your workload.',
         opt2: 'Cuff your hands together while performing 1 other task from your workload.',
         pass1: 'Tie yourself in a hogtie for 40 minutes.',
-        pass2: 'Tie yourself in a hogtie for 20 minutes while blindfolded and gagged'
+        pass2: 'Tie yourself in a hogtie for 20 minutes while blindfolded and gagged.'
     };
 
     let class11 = {
@@ -2219,10 +2219,10 @@ function initializeClassesData() {
         days: '1 3 5',
         description: 'Learn how to take it in the ass, faster, deeper and more regularly.',
         tier: 'advanced',
-        opt1: 'Face down, ass up. 60bpm anal for 10 minutes with a dildo. (size M).',
-        opt2: 'Laying, legs up, 60bpm anal for 10 minutes with a dildo (size M).',
-        pass1: 'Any position - 60bpm anal for 30 minutes (size L). 20 minutes if you wear chastity.',
-        pass2: 'Any position - 90bpm anal for 20 minutes (size L). 10 minutes if you wear chastity.'
+        opt1: 'Face down, ass up. 60BPM anal for 10 minutes with a dildo (size M).',
+        opt2: 'Laying, legs up, 60BPM anal for 10 minutes with a dildo (size M).',
+        pass1: 'Any position - 60BPM anal for 30 minutes with a dildo (size L). 20 minutes if you wear chastity.',
+        pass2: 'Any position - 90BPM anal for 20 minutes with a dildo (size L). 10 minutes if you wear chastity.'
     };
 
     let class13 = {
@@ -2230,12 +2230,12 @@ function initializeClassesData() {
         name: 'Chastity 203',
         prerequisites: '103',
         days: '1 2 4 5',
-        description: 'You will lear to go for longer periods of time locked in chastity.',
+        description: 'You will learn to go for longer periods of time locked in chastity.',
         tier: 'base',
         opt1: 'Wear a chastity device for 12 hours today.',
         opt2: 'Wear a chastity device while performing your daily workload.',
-        pass1: 'Wear a chastity device for 24 hours straight. Fuck your ass for 10minutes at 60bpm at least once while locked during this period.',
-        pass2: 'Wear a chastity device for 48hours straight.'
+        pass1: 'Wear a chastity device for 24 hours straight. Fuck your ass for 10minutes at 60BPM at least once while locked during this period.',
+        pass2: 'Wear a chastity device for 48 hours straight.'
     };
 
     let class14 = {
@@ -2243,7 +2243,7 @@ function initializeClassesData() {
         name: 'Femininity 204',
         prerequisites: '104',
         days: '1 2 4 5',
-        description: 'You will lear to dress and think like a girl. You might even get to cum like one.',
+        description: 'You will learn to dress and think like a girl. You might even get to cum like one.',
         tier: 'base',
         opt1: '"Dress like a girl" for 1 hour today.',
         opt2: 'Listen to 30 minutes of hypno while "dressed like a girl"',
@@ -2258,10 +2258,10 @@ function initializeClassesData() {
         days: '2 3 4',
         description: 'You will learn how to deepthroat.',
         tier: 'advanced',
-        opt1: 'Deepthroat a dildo 10 times in one minute. (size M)',
-        opt2: 'Deepthroat a dildo 30 times in one sitting (size M)',
-        pass1: 'Deepthroat a dildo for 60 times i none sitting. (size M)',
-        pass2: 'Deepthroat a dildo for 10 seconds straight. (size M) 5 seconds if "dressed like a girl"'
+        opt1: 'Deepthroat a dildo (size M) 10 times in one minute.',
+        opt2: 'Deepthroat a dildo (size M) 30 times in one sitting.',
+        pass1: 'Deepthroat a dildo (size M) for 60 times i none sitting. ',
+        pass2: 'Deepthroat a dildo (size M) for 10 seconds straight. 5 seconds if "dressed like a girl"'
     };
 
     let class16 = {
@@ -2284,10 +2284,10 @@ function initializeClassesData() {
         days: '2 4',
         description: 'You will expand your anal horizons with a larger set of plugs.',
         tier: 'advanced',
-        opt1: 'Wear a buttplug for 12 hours (size M)',
-        opt2: 'Wear a buttplug for 6 hours (size L)',
-        pass1: 'Wear a (size M) buttplug for 24 hours.',
-        pass2: 'Wear a (size L) buttplug for 12 hours.'
+        opt1: 'Wear a buttplug (size M) for 12 hours.',
+        opt2: 'Wear a buttplug (size L) for 6 hours.',
+        pass1: 'Wear a buttplug (size M) for 24 hours.',
+        pass2: 'Wear a buttplug (size L) for 12 hours.'
     };
 
     let class18 = {
@@ -2295,7 +2295,7 @@ function initializeClassesData() {
         name: 'Tease and denial 209',
         prerequisites: '109',
         days: '1 2 3',
-        description: 'You will learn to stay on the edge and deny your orgasms. If you are locked in chastity, unlock yourself to complete your class workload. Dot forget to relock yourself after',
+        description: 'You will learn to stay on the edge and deny your orgasms. If you are locked in chastity, unlock yourself to complete your class workload. Don\'t forget to re-lock yourself after.',
         tier: 'advanced',
         opt1: 'Masturbate for 30 minutes or until you edge 3 times. No cumming allowed.',
         opt2: 'Masturbate for 15 minutes or until you edge 2 times while riding a dildo (any size) or wearing a buttplug (any size). No cumming allowed.',
@@ -2311,9 +2311,9 @@ function initializeClassesData() {
         description: 'You will learn to endure pain and punishment.',
         tier: 'advanced',
         opt1: 'Attach clothespins to your balls and nipples for 30 minutes.',
-        opt2: 'Tie your legs in a frogtie for 30 minutes. (see Info)',
-        pass1: 'Tie yourself in a hogtie for 60 minutes while gagged and blidfoded. 30 minutes if locked in chastity and plugged. You can also use a dildo or a vibrator-low speed.',
-        pass2: 'Tie yourself in a hogtie while gagged. Crawl from one room to the next like this and back. (minimum 10 meters). If you\'re locked in chastity and plugged just crawl to the next room (minimum 5 meters)'
+        opt2: 'Tie your legs in a frogtie for 30 minutes.',
+        pass1: 'Tie yourself in a hogtie for 60 minutes while gagged and blindfoded. 30 minutes if locked in chastity and plugged. You can also use a dildo or a vibrator-low speed.',
+        pass2: 'Tie yourself in a hogtie while gagged. Crawl from one room to the next like this and back. (minimum 10 meters). If you\'re locked in chastity and plugged just crawl to the next room (minimum 5 meters).'
     };
 
     let class20 = {
@@ -2324,9 +2324,9 @@ function initializeClassesData() {
         description: 'You will learn to enjoy only anal.',
         tier: 'master',
         opt1: 'Insert a vibrator/prostate massager (high speed) and hold in place. Stay like this for 30 minutes. Keep going even if you cum. 20 minutes if you\'re in chastity and wearing panties.',
-        opt2: 'Fuck your ass with a dildo (size L) in any position at 60bpm for 30 minutes. Keep going even if you cum. 15 minutes if locked in chastity',
-        pass1: 'Insert a vibrator/prostate massager (high speed) and hold in place. You are allowed to grind on the vibrator/massager but no hands. Stay like this for 1 hour. Keep going even if you cum. 30 minutes if locked in chastity and wearing panties',
-        pass2: 'Fuck your ass with a dildo (size L) in any position at 90bpm for 30 minutes. Keep going even if you cum. 15 minutes if locked in chastity'
+        opt2: 'Fuck your ass with a dildo (size L) in any position at 60BPM for 30 minutes. Keep going even if you cum. 15 minutes if locked in chastity.',
+        pass1: 'Insert a vibrator/prostate massager (high speed) and hold in place. You are allowed to grind on the vibrator/massager, but no hands. Stay like this for 1 hour. Keep going even if you cum. 30 minutes if locked in chastity and wearing panties.',
+        pass2: 'Fuck your ass with a dildo (size L) in any position at 90BPM for 30 minutes. Keep going even if you cum. 15 minutes if locked in chastity.'
     };
 
     let class26 = {
@@ -2349,8 +2349,8 @@ function initializeClassesData() {
         days: '1 2 3 4 5',
         description: 'Your penis will never be touched again.',
         tier: 'master',
-        opt1: 'Wear a chastity device for 24 hours today. You will only be free on weekends',
-        opt2: 'Wear a chastity device for 23 hours today (no touching when free). Sleep with a buttplug in (size M). You are free on Wednesday.',
+        opt1: 'Wear a chastity device for 24 hours today. You will only be free on weekends.',
+        opt2: 'Wear a chastity device for 23 hours today (no touching when free). Sleep with a buttplug (size M). You are free on Wednesday (Mark class as attended).',
         pass1: 'Spend two full weeks in chastity. Remove only for cleaning.',
         pass2: 'Spend one full week in chastity. Sleep with a buttplug (size M). Remove only for cleaning.'
     };
@@ -2363,7 +2363,7 @@ function initializeClassesData() {
         description: 'After this class nobody will be able to tell you were a boy. Not even you.',
         tier: 'master',
         opt1: '"Dress like a girl" for 2 hours today. Listen to 1 hour of hypno.',
-        opt2: '"Dress like a girl and lock yourself in chastity for 2 hours today.',
+        opt2: '"Dress like a girl" and lock yourself in chastity for 2 hours today.',
         pass1: 'Cum from anal two times in one day while dressed in "Full sissy attire". Listen to hypno for 2 hours minimum. Don\'t undress or clean up between sessions.',
         pass2: 'Dress in "full sissy attire" for 24 hours. 12 hours if you spend 2 of them listening to hypno while doing the "isolation punishment".'
     };
@@ -2372,24 +2372,24 @@ function initializeClassesData() {
         name: 'Deep Oral 305',
         prerequisites: '205',
         days: '2 3 4',
-        description: 'Your mouth will become as good if not better than your ass at pleasing a cock.',
+        description: 'Your mouth will become as good as, if not better than your ass at pleasing a cock.',
         tier: 'master',
-        opt1: 'Deepthroat a dildo (size L) 60 times in one sitting. 30 times if "dressed like a girl". You can replace the buttplug with another dildo (size M)',
-        opt2: 'Deepthroat a dildo (size L) for 10 seconds straight. 5 seconds if  "dressed like a girl". You can replace the buttplug with another dildo (size M)',
-        pass1: 'Deepthroat a dildo (size L) 120 times. 60 times  if "dressed like a girl". You can replace the buttplug with another dildo (size M)',
-        pass2: 'Deepthroat a dildo (size L) for 20 seconds straight. 10 seconds if "dressed like a girl". You can replace the buttplug with another dildo (size M)'
+        opt1: 'Deepthroat a dildo (size L) 60 times in one sitting. 30 times if "dressed like a girl". You can replace any buttplug with another dildo (size M).',
+        opt2: 'Deepthroat a dildo (size L) for 10 seconds straight. 5 seconds if  "dressed like a girl". You can replace any buttplug with another dildo (size M).',
+        pass1: 'Deepthroat a dildo (size L) 120 times. 60 times  if "dressed like a girl". You can replace any buttplug with another dildo (size M).',
+        pass2: 'Deepthroat a dildo (size L) for 20 seconds straight. 10 seconds if "dressed like a girl". You can replace any buttplug with another dildo (size M).'
     };
     let class24 = {
         id: '308',
         name: 'Stuffing 308',
         prerequisites: '205 208',
         days: '2 4',
-        description: 'You will be trained to take in multiple toys at once.',
+        description: 'You will be trained to take multiple toys at once.',
         tier: 'master',
-        opt1: 'Insert a dildo (size L) in your ass and hold in place for 10 minutes. Deepthroat another one (size M) 10 times in the meantime.',
-        opt2: 'Inset a buttplug (size L) in your ass for 10 minutes. Deepthroat a dildo (size L) 10 times in the meantime.',
-        pass1: 'Insert a dildo (size L) in your ass and hold in place for 20 minutes. After you finish insert a buttplug (size L) and deepthroat the same dildo 50 times in one siting.',
-        pass2: 'Inset a buttplug (size L) in your ass. Deepthroat a dildo (size L) for 20 seconds straight.'
+        opt1: 'Insert a dildo (size L) in your ass and hold it in place for 10 minutes. Deepthroat another one (size M) 10 times at the same time.',
+        opt2: 'Insert a buttplug (size L) in your ass for 10 minutes. Deepthroat a dildo (size L) 10 times at the same time.',
+        pass1: 'Insert a dildo (size L) in your ass and hold it in place for 20 minutes. After you finish, insert a buttplug (size L) and deepthroat the same dildo (size L) 50 times in one siting.',
+        pass2: 'Insert a buttplug (size L) in your ass. Deepthroat a dildo (size L) for 20 seconds straight.'
     };
     let class25 = {
         id: '309',
@@ -2398,10 +2398,10 @@ function initializeClassesData() {
         days: '1 2 4 5',
         description: 'You will be trained to stay horny permanently and forget what orgasms feel like.',
         tier: 'master',
-        opt1: 'Edge 5 times in one sitting today. Or once in the morning, once in the afternoon and once before bed. No cumming allowed.',
-        opt2: 'Edge 3 times in one sitting while riding a dildo or wearing a buttplug. No cumming allowed.',
-        pass1: 'Edge 2 times a day for a week (even weekends). Dont cum, even from anal. Milking is allowed.',
-        pass2: 'Edge once a day for a week (even weekends) while riding a dildo. Dont cum, even from anal. Milking is allowed'
+        opt1: 'Edge 5 times in one sitting today. Or once in the morning, once in the afternoon, and once before bed. No cumming allowed.',
+        opt2: 'Edge 3 times in one sitting while riding a dildo (size M) or wearing a buttplug (size M). No cumming allowed.',
+        pass1: 'Edge 2 times every day for a week (even weekends). Don\'t cum, even from anal. Milking is allowed.',
+        pass2: 'Edge once a day for a week (even weekends) while riding a dildo. Don\'t cum, even from anal. Milking is allowed'
     };
 
     let classesData = [];
@@ -2444,8 +2444,8 @@ function initializeClubsData() {
         description: 'Get your holes filled!',
         perk1: 'Skip a class.',
         perk2: 'Skip a class.',
-        job1: 'Fuck your ass at 60bpm for 10 minutes with a dildo. (size M).',
-        job2: 'Deepthroat a dildo 10 times in one minute. (size M)',
+        job1: 'Fuck your ass at 60BPM for 10 minutes with a dildo (size M).',
+        job2: 'Deepthroat a dildo (size M) 10 times in one minute.',
     };
     let club2 = {
         id: '2',
@@ -2454,7 +2454,7 @@ function initializeClubsData() {
         description: 'We make house chores fun! Requires: maid outfit',
         perk1: 'Skip a class today.',
         perk2: 'Skip a class today.',
-        job1: 'Dress in a maid outfit. Put on chastity and insert a dildo, hold it with your panties. Clean your room for 15minutes.',
+        job1: 'Dress in a maid outfit. Put on a chastity cage and insert a dildo (size M), hold it with your panties. Clean your room for 15 minutes.',
         job2: 'Dress in a maid outfit for the rest of your daily workload.',
     };
     let club3 = {
@@ -2472,10 +2472,10 @@ function initializeClubsData() {
         id: '4',
         name: 'Elite Students club',
         days: '0',
-        description: 'Be part of the school\'s elite. Get rewarded with free class skips every day but also get punished accordingly.',
+        description: 'Be part of the school\'s elite. Get rewarded with free class skips every day, but also get punished accordingly.',
         perk1: 'Skip one class a day. (gain automatically)',
         perk2: 'Skip one class a day. (gain automatically)',
-        job1: 'Join one extra advanced class (green). You\'ll need to complete its prerequisites too. You can join one extra club.',
+        job1: 'Join an extra advanced class (green). You\'ll need to complete its prerequisites too. You can join one extra club.',
         job2: 'Increase maximum number of clubs to 2. Increase maximum number of enrolled classes to 5. Increase maximum number of punishments to 9.',
     };
     let club5 = {
@@ -2496,7 +2496,7 @@ function initializeClubsData() {
         perk1: 'Skip a class.',
         perk2: 'Skip a class.',
         job1: 'Read 30 minutes of hentai today while locked in chastity.',
-        job2: 'Read 30 minutes of hentai today while locked in chastity and with a dildo (size  M) or a vibrator up your ass.',
+        job2: 'Read 30 minutes of hentai today while locked in chastity and with a dildo (size M) or a vibrator up your ass.',
     };
     let club7 = {
         id: '7',
@@ -2506,13 +2506,13 @@ function initializeClubsData() {
         perk1: 'Skip a class.',
         perk2: 'Skip two classes.',
         job1: 'Roll the "Isolation" punishment',
-        job2: 'Spend 30 minutes tied in a hogtie or mummified - blindfolded, gagged, locked in chastity with a buttplug (size M) in. Listen to hypno or white noise on headphones while like this"',
+        job2: 'Spend 30 minutes tied in a hogtie or mummified - blindfolded, gagged, locked in chastity, with a buttplug (size M). Listen to hypno or white noise on headphones while like this.',
     };
     let club8 = {
         id: '8',
         name: 'Petplay club',
         days: '0',
-        description: 'Do you like pets? Well now you\'ll get to be one',
+        description: 'Do you like pets? Well, now you\'ll get to be one.',
         perk1: 'Skip a class.',
         perk2: 'Skip two classes.',
         job1: 'Spend 30 minutes as a "pet".',
@@ -2523,10 +2523,10 @@ function initializeClubsData() {
         name: 'Bondage club',
         days: '0',
         description: 'Join this club if bondage is your passion.',
-        perk1: 'Skip a classes.',
+        perk1: 'Skip a class.',
         perk2: 'Skip two classes.',
         job1: 'Spend 20 minutes in a frogtie with a vibrator up your ass.',
-        job2: 'Spend 30 minutes in a hogtie - blindfolded, gagged, with chastity and buttplug on.',
+        job2: 'Spend 30 minutes in a hogtie - blindfolded, gagged, with chastity and buttplug (size M).',
     };
     let club10 = {
         id: '10',
@@ -2552,7 +2552,7 @@ function initializeClubsData() {
         id: '12',
         name: 'Media Club',
         days: '0',
-        description: 'Inspire the world by showing it yours',
+        description: 'Inspire the world by showing it yours.',
         perk1: 'Skip two classes.',
         perk2: 'Skip two classes',
         job1: 'Upload a photo of you while in chastity on the web.',
@@ -2582,22 +2582,22 @@ function initializePunishmentsData() {
     let punishment1 = {
         id: '1',
         name: 'Isolation',
-        description: 'Spend 30 minutes in Isolation - Lock yourself in chastity and insert a buttplug. Put a blindfold and a gag on (alternative you you can use a hood). Tie your yourself with belts like shown in the picture. Your legs around the ankles, knees and your hands around your hips and chest. Alternative you you can mummify yourself in plastic wrap or use a leather/latex sleep sack. Listen so hypno or white noise while like this.'
+        description: 'Spend 30 minutes in Isolation - Lock yourself in chastity and insert a buttplug. Put a blindfold and a gag on (alternative you you can use a hood). Tie your yourself with belts like shown in the picture. Your legs around the ankles, knees and your hands around your hips and chest. Alternatively you can mummify yourself in plastic wrap or use a leather/latex sleep sack. Listen to hypno or white noise while like this.'
     };
     let punishment2 = {
         id: '2',
         name: 'Feminization',
-        description: 'Dress "like a girl" (panties, bra, stockings/pantyhose, skirt/dress) for the rest of your daily workload (includes tasks, exams, other punishments and club activities)'
+        description: 'Dress "like a girl" (panties, bra, stockings/pantyhose, skirt/dress) for the rest of your daily workload.'
     };
     let punishment3 = {
         id: '3',
         name: 'Hypnosis',
-        description: 'You are forced to listen to hypno for 1 hour while fingering yourself or fiddling with your buttplug.'
+        description: 'You are forced to listen to hypno for 1 hour while fingering yourself or fiddling with your buttplug (size M).'
     };
     let punishment4 = {
         id: '4',
         name: 'Spanking',
-        description: 'You are forced to spank your ass 30times on each cheek. Roll another punishment if you\'re not bright red by the end of it.'
+        description: 'You are forced to spank your ass 30 times on each cheek. Roll another punishment if you\'re not bright red by the end of it.'
     };
     let punishment5 = {
         id: '5',
@@ -2607,22 +2607,22 @@ function initializePunishmentsData() {
     let punishment6 = {
         id: '6',
         name: 'Heavy Bondage',
-        description: 'Spend 60 minuties in a hogtie. 30 minutes if blindfolded, gagged, plugged and in chastity.'
+        description: 'Spend 60 minutes in a hogtie. 30 minutes if blindfolded, gagged, plugged, and in chastity.'
     };
     let punishment7 = {
         id: '7',
         name: 'Enema',
-        description: 'You are forced to bent over a desk and given a 1000ml enema. Hold it for 10 minutes. If you spill any reroll punishment.'
+        description: 'You are forcefully bent over a desk and given a 1000ml enema. Hold it for 10 minutes. If you spill any reroll punishment.'
     };
     let punishment8 = {
         id: '8',
         name: 'Bondage',
-        description: 'Tie your legs in a frogtie for 30 minutes. '
+        description: 'Tie your legs in a frogtie for 30 minutes.'
     };
     let punishment9 = {
         id: '9',
         name: 'Inflation',
-        description: 'You are forced to drink 1000ml of water. Then take a 1000ml enema for 10minutes. You\'re not allowed to go to the restroom until you finish.'
+        description: 'You are forced to drink 1000ml of water, then take a 1000ml enema for 10 minutes. You\'re not allowed to go to the restroom until you finish.'
     };
     let punishment10 = {
         id: '10',
@@ -2642,7 +2642,7 @@ function initializePunishmentsData() {
     let punishment13 = {
         id: '13',
         name: 'Maid Service',
-        description: 'You are forced to lock yourself in chastity and insert a prostate massager/vibrator. Cuff your wrists and ankles and sweep/dust/vacuum your room for a minimum 30minutes. If you dress as a maid you can reduce the time to half.'
+        description: 'You are forced to lock yourself in chastity and insert a prostate massager/vibrator. Cuff your wrists and ankles and sweep/dust/vacuum your room for a minimum of 30 minutes. If you dress as a maid you can reduce the time to half.'
     };
     let punishment14 = {
         id: '14',
@@ -2657,12 +2657,12 @@ function initializePunishmentsData() {
     let punishment16 = {
         id: '16',
         name: 'Group punishment',
-        description: 'The entire class got held behind because of you so they decided to give you a lesson. First they punish you by attaching clothespins to your balls and  nipples and locking you in chastity (you can avoid the clothespins if you "dress like a girl"). Then they take turns fucking your ass and mouth. They fuck you from behind at 60bpm for 10 minutes (dildo size M). Then they make you give them 20 deepthroats (dildo size M). You can remove the clothespins after they are done with you.'
+        description: 'The entire class got held behind because of you so they decided to give you a lesson. First they punish you by attaching clothespins to your balls and nipples and locking you in chastity (you can avoid the clothespins if you "dress like a girl"). Then they take turns fucking your ass and mouth. They fuck you from behind at 60BPM for 10 minutes (dildo size M). Then they make you give them 20 deepthroats (dildo size M). You can remove the clothespins after they are done with you.'
     };
     let punishment17 = {
         id: '17',
         name: 'Asphyxiation',
-        description: 'You are forced to put a plastic bag on your head and tie it around your neck. You can use a rubber band (recommended) or a belt/rope/collar. Keep it on for 2 minutes while you sit on a dildo (size M)'
+        description: 'You are forced to put a plastic bag on your head and tie it around your neck. You can use a rubber band (recommended) or a belt/rope/collar. Keep it on for 2 minutes while you sit on a dildo (size M).'
     };
     let punishment18 = {
         id: '18',
