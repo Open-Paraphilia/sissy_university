@@ -13,7 +13,7 @@ inflation, spanking, breathplay, humiliation, petplay, estim, fucking machines, 
 mummification and others.
   
 ## How To Play  
-Go to: https://mayatrap.github.io/sissy_university/
+Go to: https://Open-Paraphilia.github.io/sissy_university/
   
 
 ## Offline Play for PC/Mac
@@ -27,5 +27,6 @@ Go to: https://mayatrap.github.io/sissy_university/
 
 ## Offline Play for Android (works on Android 7 Nougat and newer only)
 The APK version is often outdated and with limited support.
+The APK version still contains the original pictures.
 Latest APK version - 25Aug2018; Latest Game Version - 25Aug2018:
 https://mega.nz/#!OHxxXLYJ!TNOGqFFKxXKDH6-VegJnzrM9lrgznKcuaBHUjSGux0w
