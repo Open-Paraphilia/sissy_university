@@ -136,7 +136,7 @@ function viewMajorsPage() {
         let col = $('<div class="col-auto">');
         let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-        let imgUrl = "img/" + "major" + thisMajor.id + ".jpg";
+        let imgUrl = "img/noPic.svg";
         card
             .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
             window.location.href = "major.html?majorId=" + thisMajor.id;
@@ -202,7 +202,7 @@ function viewMajor() {
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
-    let imgUrl = "img/major" + thisMajor.id + ".jpg";
+    let imgUrl = "img/noPic.svg";
     col.append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name)
         .append(prereqsHtml));
@@ -331,7 +331,7 @@ function chooseFinalThesis() {
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
-    let imgUrl = "img/" + "major" + thisMajor.id + ".jpg";
+    let imgUrl = "img/noPic.svg";
 
     col.append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name));
@@ -393,7 +393,7 @@ function finalThesisProgress() {
     let col = $('<div class="col">');
 
     //Append image, title and description to object info
-    let imgUrl = "img/major" + thisMajor.id + ".jpg";
+    let imgUrl = "img/noPic.svg";
     col.append($('<img class="img-fluid" style="max-width: 100%">').attr('src', imgUrl));
     col.append($('<h1>').text(thisMajor.name));
     col.append($('<p>').text(thisMajor.description));
@@ -455,7 +455,7 @@ function finalThesisProgress() {
     let currentPunishments = getCurrentPunishments();
 
     for (let thisPunishment of currentPunishments) {
-        let punishmentImg = "img/punishment" + thisPunishment.id + ".jpg";
+        let punishmentImg = "img/noPic.svg";
         objectInfo.append($('<div class="row" style="margin-bottom: 24px">')
             .append($('<div class="col">')
                 .append($('<img class="img-fluid" style="max-height: 300px">').attr('src', punishmentImg)))
@@ -557,7 +557,7 @@ function viewClassesPage() {
     for (let thisClass of classesData) {
         let col = $('<div class="col-auto">');
 
-        let imgUrl = "img/" + "class" + thisClass.id + ".jpg";
+        let imgUrl = "img/noPic.svg";
 
         if (thisClass.tier === "core") {
             let card = $('<div class="card border-danger" style="width:18rem; height: 400px">');
@@ -682,7 +682,7 @@ function viewClass() {
         prereqsHtml.text("Prerequisites: None")
     }
 
-    let imgUrl = "img/class" + thisClass.id + ".jpg";
+    let imgUrl = "img/noPic.svg";
     //Append Image title description
     objectInfo
         .append($('<div class="row">')
@@ -1016,7 +1016,7 @@ function viewPunishmentsPage() {
         let col = $('<div class="col-auto">');
         let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-        let imgUrl = "img/" + "punishment" + thisPunishment.id + ".jpg";
+        let imgUrl = "img/noPic.svg";
         card
             .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
             window.location.href = "punishment.html?punishmentId=" + thisPunishment.id;
@@ -1036,7 +1036,7 @@ function viewPunishment() {
 
     let objectInfo = $('.container');
 
-    let imgUrl = "img/punishment" + thisPunishment.id + ".jpg";
+    let imgUrl = "img/noPic.svg";
 
     objectInfo
         .append($('<div class="row">')
@@ -1064,7 +1064,7 @@ function viewClubsPage() {
         let col = $('<div class="col-auto">');
         let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-        let imgUrl = "img/" + "club" + thisClub.id + ".jpg";
+        let imgUrl = "img/noPic.svg";
         card
             .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
             window.location.href = "club.html?clubId=" + thisClub.id;
@@ -1084,7 +1084,7 @@ function viewClub() {
 
     let objectInfo = $('.container');
 
-    let imgUrl = "img/club" + thisClub.id + ".jpg";
+    let imgUrl = "img/noPic.svg";
 
     objectInfo
         .append($('<div class="row">')
@@ -1402,7 +1402,7 @@ function viewProgressPage() {
         }
 
         //Append Major info to page
-        let imgUrl = "img/major" + currentMajor.id + ".jpg";
+        let imgUrl = "img/noPic.svg";
         let majorObject =
             $('<div class="major-info">')
                 .append($('<div class="row">')
@@ -1428,7 +1428,7 @@ function viewProgressPage() {
 
         for (let thisClass of currentClassesSorted) {
             let cardCol = $('<div class="col-auto">');
-            let imgUrl = "img/" + "class" + thisClass.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
 
             let card = $('<div class="card border-dark" style="width:18rem; height: 400px">');
             card
@@ -1463,7 +1463,7 @@ function viewProgressPage() {
             let thisClass = classesData.find(x => x.id == classId);
 
             let cardCol = $('<div class="col-auto">');
-            let imgUrl = "img/" + "class" + thisClass.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
 
             let card = $('<div class="card border-dark" style="width:18rem; height: 400px">');
             card
@@ -1498,7 +1498,7 @@ function viewProgressPage() {
         }
         for (let thisClass of completedClassesSorted) {
             let cardCol = $('<div class="col-auto">');
-            let imgUrl = "img/" + "class" + thisClass.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
 
             let card = $('<div class="card border-dark" style="width:18rem; height: 400px">');
             card
@@ -1524,7 +1524,7 @@ function viewProgressPage() {
             let col = $('<div class="col-auto">');
             let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-            let imgUrl = "img/" + "punishment" + thisPunishment.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
             card
                 .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
                 window.location.href = "punishment.html?punishmentId=" + thisPunishment.id;
@@ -1549,7 +1549,7 @@ function viewProgressPage() {
             let col = $('<div class="col-auto">');
             let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-            let imgUrl = "img/" + "club" + thisClub.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
             card
                 .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
                 window.location.href = "club.html?clubId=" + thisClub.id;
@@ -1647,7 +1647,7 @@ function viewSchedulePage() {
             let col = $('<div class="col-auto">');
             let card = $('<div class="card" style="width:18rem; height: 400px">');
 
-            let imgUrl = "img/" + "punishment" + thisPunishment.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
             card
                 .append($('<img class="card-img-top">').attr('src', imgUrl)).click(function () {
                 window.location.href = "punishment.html?punishmentId=" + thisPunishment.id;
@@ -1678,7 +1678,7 @@ function viewSchedulePage() {
             let leftCol = $('<div class="col text-center">');
             let rightCol = $('<div class="col text-left">');
 
-            let imgUrl = "img/class" + thisClass.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
 
             leftCol.append($('<img class="img-fluid" style="max-height: 250px">').attr('src', imgUrl));
             rightCol.append($('<h5>').text(thisClass.name));
@@ -1732,7 +1732,7 @@ function viewSchedulePage() {
             let leftCol = $('<div class="col text-center">');
             let rightCol = $('<div class="col text-left">');
 
-            let imgUrl = "img/club" + thisClub.id + ".jpg";
+            let imgUrl = "img/noPic.svg";
 
             leftCol.append($('<img class="img-fluid" style="max-height: 250px">').attr('src', imgUrl));
             rightCol.append($('<h5>').text(thisClub.name));
