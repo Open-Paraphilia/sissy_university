@@ -1,4 +1,6 @@
-# Sissy University 2018
+# Sissy University
+Currently supported version is hosted at: http://sissy-university.com/
+
 Interactive Erotic game focused on anal and oral training, feminisation, chastity and orgasm denial.
 
  Sissy University 2018 is a longterm browser based game which explores various sexual kinks. You’ll get to
@@ -14,19 +16,3 @@ mummification and others.
   
 ## How To Play  
 Go to: https://Open-Paraphilia.github.io/sissy_university/
-  
-
-## Offline Play for PC/Mac
-1.Click "Clone or Download"  
-2.Click Download Zip  
-3.Extract the downloaded archive  
-4.Start index.html (this is a browser based game)  
-5.Enjoy!  
-*using Firefox is recommended
-
-
-## Offline Play for Android (works on Android 7 Nougat and newer only)
-The APK version is often outdated and with limited support.
-The APK version still contains the original pictures.
-Latest APK version - 25Aug2018; Latest Game Version - 25Aug2018:
-https://mega.nz/#!OHxxXLYJ!TNOGqFFKxXKDH6-VegJnzrM9lrgznKcuaBHUjSGux0w
